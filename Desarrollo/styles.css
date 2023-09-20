@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*============================================================*/
+/*============================================================*/
+.rectangulo_superior{
+    position: absolute;
+    margin-left: 160px;
+    width: 1000px;/*ancho*/
+    height: 230px;/*alto*/
+    background-color:rgb(84, 78, 74);
+}
+.rectangulo_superior img {
+    position: absolute;
+    width: 200px; 
+    height: 200px; 
+    top: 15px;
+    left: 70px; 
+    border-radius: 50%;
+}
+.texto-derecha {
+    position: absolute;
+    top: 60px; /* Ajusta la posición vertical del texto aquí */
+    right: 180px; /* Ajusta la posición horizontal del texto aquí */
+    font-size: 30px; 
+    color: white; /* Cambia el color del texto según tu preferencia */
+    
+}
+
+/*============================================================*/
+/*============================================================*/
+
+.rectangulo_izquierdo{
+    position: absolute;
+
+    margin-top: 230px;
+    margin-left: 160px;
+
+    width: 350px;/*ancho*/
+    height: 1000px;/*alto*/
+    background-color:rgb(139, 141, 163);
+}
+.rectangulo_izquierdo h2.subtitulo {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+    
+    background-image: linear-gradient(to right, currentColor 50%, transparent 50%);
+    background-size: 180% 2px; 
+    background-repeat: no-repeat;
+    background-position: 0 100%;   
+}
+.rectangulo_izquierdo ul {
+    list-style-type: none;
+}
+.rectangulo_izquierdo li {
+    margin-top: 8px;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/*============================================================*/
+/*============================================================*/
+.rectangulo_derecho{
+    position: absolute;
+
+    margin-top: 230px;
+    margin-left: 510px;
+    width: 650px;/*ancho*/
+    height: 1000px;/*alto*/
+    background-color:rgb(255, 255, 255);
+}
+.rectangulo_derecho .subtitulos {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.rectangulo_derecho .subtitulos h2.subtitulo {
+    font-size: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, currentColor 50%, transparent 50%);
+    background-size: 200% 2px; 
+    background-repeat: no-repeat;
+    background-position: 0 100%;  
+}
+.perfil-parrafo {
+    
+    font-size: 20px;
+}
+.Exp-Lab-Trabajador{
+    margin-top: 13px;
+    font-size: 28px;
+}
+.Exp-Lab-Mexico-Act{
+    margin-top: 8px;
+    font-size: 24px;
+    
+}
+.Exp-Lab-Mexico-2022{
+    margin-top: 8px;
+    font-size: 24px;
+    
+}
+.Exp-Lab-Zaragoza{
+    margin-top: 8px;
+    font-size: 24px;
+}
